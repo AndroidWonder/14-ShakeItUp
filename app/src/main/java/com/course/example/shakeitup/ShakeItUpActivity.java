@@ -120,8 +120,8 @@ public class ShakeItUpActivity extends Activity implements SensorEventListener {
  
 
     @Override
-    protected void onResume() {
-        super.onResume();
+    protected void onStart() {
+        super.onStart();
         
         //register listeners
         sm.registerListener(this, 
