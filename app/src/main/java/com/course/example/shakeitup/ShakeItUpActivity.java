@@ -139,8 +139,8 @@ public class ShakeItUpActivity extends Activity implements SensorEventListener {
     
     @Override
     protected void onStop() {
+		super.onStop();
         sm.unregisterListener(this);
-        super.onStop();
     }    
     
     
